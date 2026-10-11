@@ -1,0 +1,20 @@
+<misterromdescription>
+  <name>Round-Up (Amenip/Centuri)</name>
+  <mameversion>0268</mameversion>
+  <setname>roundup</setname>
+  <rbf>RoundUp</rbf>
+  <buttons names="Fire,Start 1P,Start 2P,Coin" default="A,Start,Select,R" />
+  <rom index="0" zip="roundup.zip" md5="e7f3c19ff9172896fa2268e3916fcd2f">
+    <part name="roundup.u38" crc="d62c3b7a" />
+    <part name="roundup.u39" crc="37bf554b" />
+    <part name="roundup.u40" crc="5109d0c5" />
+    <part name="roundup.u41" crc="1c5ed660" />
+    <part name="roundup.u33" crc="2fa711f3" />
+    <part name="roundup.u30" crc="1b18faee" />
+    <part name="roundup.u31" crc="76cf4394" />
+    <part name="roundup.u9" crc="394676a2" />
+    <part name="roundup.u10" crc="a38d708d" />
+    <part name="roundup.clr" crc="a758b567" />
+  </rom>
+  <nvram index="4" size="32" />
+</misterromdescription>
