@@ -17,7 +17,7 @@ The core supports the original game's graphics, sound, controls and high-score p
 
 ## Installation
 
-1. Copy `releases/RoundUp_20261004.rbf` to `/_Arcade/cores/`.
+1. Copy `releases/Arcade-RoundUp_20261004.rbf` to `/_Arcade/cores/` as `RoundUp_20261004.rbf`. The official Distribution installer removes the `Arcade-` prefix.
 2. Copy `releases/Round-Up (Amenip-Centuri, roundup).mra` to `/_Arcade/`.
 3. Supply your legally obtained `roundup.zip` in `/games/mame/` and launch the MRA.
 
@@ -104,6 +104,6 @@ The supplied release RBF is the previously tested build. A newly compiled RBF sh
 
 **Release SHA-256:**
 
-`RoundUp_20261004.rbf`
+`Arcade-RoundUp_20261004.rbf`
 
 `58b88d2fe14ccf8c62855a6165acf47288d1c9986e806f2e4449d5afcd0703ce`
