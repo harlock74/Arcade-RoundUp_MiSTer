@@ -8,6 +8,12 @@ Current status: functional behavioural implementation, mainly based on MAME/refe
 
 The core supports the original game's graphics, sound, controls and high-score persistence.
 
+## How this core was developed
+
+This core was developed with the help of AI coding tools, which I used to write the code where my own experience fell short. Its current behaviour is largely based on MAME.
+
+Super Mouse shares the same hardware as The Pit, so this core has been derived from my [The Pit core](https://github.com/harlock74/Arcade-ThePit_MiSTer). As The Pit core is refactored against the netlist I compiled from the original The Pit manuals, the changes will be carried over to this core where they apply.
+
 ## Screenshots
 
 | | |
