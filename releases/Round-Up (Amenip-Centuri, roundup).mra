@@ -3,6 +3,7 @@
   <mameversion>0268</mameversion>
   <setname>roundup</setname>
   <rbf>RoundUp</rbf>
+  <rotation>vertical (cw)</rotation>
   <buttons names="Fire,Start 1P,Start 2P,Coin" default="A,Start,Select,R" />
   <rom index="0" zip="roundup.zip" md5="e7f3c19ff9172896fa2268e3916fcd2f">
     <part name="roundup.u38" crc="d62c3b7a" />
