@@ -23,7 +23,7 @@ Super Mouse shares the same hardware as The Pit, so this core has been derived f
 
 ## Installation
 
-1. Copy `releases/Arcade-RoundUp_20261025.rbf` to `/_Arcade/cores/` as `RoundUp_20261025.rbf`. The official Distribution installer removes the `Arcade-` prefix.
+1. Copy `releases/Arcade-RoundUp_20261116.rbf` to `/_Arcade/cores/` as `RoundUp_20261116.rbf`. The official Distribution installer removes the `Arcade-` prefix.
 2. Copy `releases/Round-Up (Amenip-Centuri, roundup).mra` to `/_Arcade/`.
 3. Supply your legally obtained `roundup.zip` in `/games/mame/` and launch the MRA.
 
@@ -110,6 +110,6 @@ The supplied release RBF is the previously tested build. A newly compiled RBF sh
 
 **Release SHA-256:**
 
-`Arcade-RoundUp_20261025.rbf`
+`Arcade-RoundUp_20261116.rbf`
 
-`4c79e20222c592cc199e75e9d9207240b7696d64e1f2b793a02093a0cd49d8e8`
+`435831ffd3ccdac7a18cab55d9fbb26e979f051895d523888af3cfbcdd3aff8d`

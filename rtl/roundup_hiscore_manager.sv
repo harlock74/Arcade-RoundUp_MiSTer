@@ -33,7 +33,8 @@ module roundup_hiscore_manager(
  reg [3:0] pos=0;
  reg significant_seen=0;
  reg [5:0] hud_blank_mask=0;
- reg [9:0] budget=0;
+ // Preserve the approximately 40.96 us bus-transaction timeout at 36.864 MHz.
+ reg [10:0] budget=0;
  localparam IDLE=0,GRANT=1,DRAIN1=2,DRAIN2=3,BEGIN=4,
   READ1=5,READ2=6,READ3=7,READ4=8,
   WRITE1=9,WRITE2=10,WRITE3=11,
@@ -94,7 +95,7 @@ module roundup_hiscore_manager(
   end else begin
    if(state!=IDLE)begin
     budget<=budget+1'b1;
-    if(budget==1023)begin fault<=1;state<=IDLE;end
+    if(budget==11'd1509)begin fault<=1;state<=IDLE;end
    end else budget<=0;
    if(!owns && busak_n)begin
     if(reading && !was_read)begin read_address<=cpu_a;read_opcode<=!m1_n;end
